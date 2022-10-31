@@ -3,8 +3,6 @@ const path = require("path");
 const fs = require("fs");
 
 const dbNotes = require("./db/db.json");
-const { right } = require("inquirer/lib/utils/readline");
-const { json } = require("express");
 const PORT = 3001;
 
 const app = express();
